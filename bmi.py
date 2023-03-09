@@ -14,10 +14,10 @@ def main():
     height = (feet * 12) + inches # convert height to inches
     bmi = calculateBMI(weight, height) # calculate bmi
     # output bmi range
-    if bmi < 18.5: print("Underweight")
-    elif bmi < 25: print("Normal Weight")
-    elif bmi < 30: print("Overweight")
-    else: print("Obese")
+    if bmi < 18.5: input("Underweight")
+    elif bmi < 25: input("Normal Weight")
+    elif bmi < 30: input("Overweight")
+    else: input("Obese")
     return 0
 
 main()
